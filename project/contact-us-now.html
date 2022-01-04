@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width , initial-scale = 1"/>
+<title> This is contact us page  </title>
+<link rel="icon" type="image/x-icon" href="images/logo.png">
+</head>
+<link href="css/mobile.css" rel="stylesheet" >
+       <link href="css/CSS.css" rel="stylesheet"  media= "screen and (min-device-width:720px)">
+       <script src="javascript/jquery-3.6.0.min.js"></script>
+       <script src="javascript/jquiary.js"></script>
+</head>
+<body >
+
+  <div id = "container">
+      <header>
+    <div id = "logo">
+      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/logo.png" alt="logo" >
+      </div>
+      <nav>
+      <ul id="ss">
+        <li ><a href="index.html"><i>Home</i> </a></li>
+        <li ><a href="about-us.html"><em>About us </em></a></li>
+       <li ><a href="computing-courses.html">Computing Courses </a></li>
+       <li><a href="design-courses.html">Design Courses </a></li>
+       <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="learning-resources.html">Learning Resources</a></li>
+        <li><a href="information-for-student.html">Information For Student</a></li>
+        <li><a href="information-for-staff.html">information for staff</a></li>
+        <li><a href="business.html">Working With Business</a></li>
+        <li><a href="how-to-find-us.html">How To Find Us </a> </li>
+       <li><a href="contact-us-now.html"> Contact Us </a></li>
+       
+    </ul>
+   
+    </nav>
+    </header>
+    </div>
+    <h1 > Contact us</h1>
+    
+    <p id="welcome"></p>
+    <p class="omar2">
+   if you have any concern and you
+    need to contact us please fill in  this form with your details and a member of our 
+    staff will will get back to you within 48 hours.
+    </p>
+  <form  action="index.html" name="Iform" >
+    <div> 
+    <label for="firstName"> Your First Name</label>
+    <input type="text" name="Your First Name" id="firstName" placeholder="First Name"></div>
+    <div>
+    <label for="lastName"> Your last Name</label>
+    <input type="text"  name="Your Last Name" id="lastName" placeholder="last Name"></div>
+    <div>
+    <label for="email"> Your Email Address</label>
+    <input type="email" name=" email" id="email" placeholder="aaaa@aaaa.com" required> 
+  </div>
+    <div>
+    <label for="tel"> Your  contact Number </label>
+    <input type="tel" name="tel" id="tel" placeholder="+447050709920">
+   </div>
+  
+   <div>
+    <fieldset>
+      <legend>Address</legend>
+        <label for="firstline">first line of your address</label><br>
+        <input type="text" name="firstline" id="firstlne"/>
+         <p>
+        <label for="postcode">Postcode</label><br>
+        <input type="text" name="postcode" id="postcode" /> 
+        </p> 
+      </fieldset>
+      </div>
+      <div> 
+        <labl for= "startDate"> Your Date Of Birth </labl>
+        <input type="date" name="startDate" id="startDate" > 
+      </div>
+   <div >
+    <label for="press">Which department ??</label>
+    <input list="press" placeholder="choose one please " required>
+    <datalist id="press">
+    <option value="information for staff"><br>
+    </option><option value="information for student"><br>
+    </option><option value="Computing Courses details"><br>
+    </option><option value="Design Courses details"><br>
+    </option><option value="facilities"><br>
+    </option></datalist>
+   </div>
+   
+    <div> 
+    <label for="message">  Give more details please </label>
+    <textarea name="message" id="message" placeholder=" insert your inqiry here please" required></textarea></div>
+    
+     <input id="submit"  type="submit" value="Submit" onclick="welcome(this)" >
+     <p id="conf"></p>
+
+    
+    
+  </form>
+
+<div id ="footer">
+  <p>
+    this page was designed by Noor Homad 
+  </p>
+  
+</div>
+<script src="javascript/j.js"></script>
+<script src="javascript/contact.js"></script> 
+
+</body>
+</html>

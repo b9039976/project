@@ -1,0 +1,125 @@
+1  h1
+ {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: italic;
+   text-decoration-line: underline;
+   text-align-last:center ;
+   color:rgb(7, 58, 7) ;
+   text-shadow: 0 0 10px rgb(166, 165, 231), 0 0 20px rgb(78, 81, 231), 0 0 30px #3734eb, 0 0 40px #a2a6c7,
+    0 0 50px #e73508d7, 0 0 60px #2427cf, 0 0 70px#1f035f; 
+    }
+    .highlight{
+      background-color: lightgreen;
+      
+      border-bottom: 3px solid;
+      border-left: 2px solid;
+      border-right: 2px solid;
+      border-color: black;
+      font-size: 28px;
+    }
+ body {
+    background-color:rgb(226, 223, 223);
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+ } 
+ #container {
+  width: 100%;
+    background-color:rgb(245, 218, 63);  
+  }
+  #logo{
+    width: 100%;
+    height: auto;
+  }
+  #footer{
+    padding: 0 15px;
+    text-align: center;
+    text-decoration: gray;
+    font-style: italic;
+  font-size: 10px;
+  }
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+}
+
+nav ul li {
+
+  border-bottom-color: black;;
+  padding: 5px;
+  text-align: center;
+  border-bottom-style:groove ;
+  border-bottom-width: 3px ;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: black;
+  padding: 8px 0;
+  width: 100%;
+  text-decoration: none ;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+nav li a:link{  text-decoration:none;  color: rgba(7, 3, 2, 0.911) } 
+nav li a:visited{  text-decoration:none;  color:#2c022e; }
+   nav li a:active{  text-decoration:none;  color:#6b1919; }
+.left-float{
+  float: left;
+  padding: 0 10px 10px 0 ;
+  width: 50%;
+}
+form >div 
+{
+  margin: 20px 0 ;
+}
+label{
+  display: block;
+}
+input[type=text] [type=email][type=tel][type=date] {
+  width: 70%;
+}
+textarea{
+  width: 80%;
+  height: 100px;
+}
+#submit
+{
+font-style: italic;
+background-color: chartreuse;
+font-weight: bold;
+font-size: 20px;
+}
+table{
+  border-style:none;
+}
+th {
+  color: rgb(7, 58, 7);
+  border-style:groove;
+  border-style:double;
+border-color: firebrick;
+
+}
+.break{
+  display: inline-block;
+}
+th ,td {
+  width:max-content;
+  border-radius: 15px;
+  text-align: center;
+}
+td{
+  border-style:groove;
+  
+}
+ 
+section [div]
+{
+  width: 100%;
+}

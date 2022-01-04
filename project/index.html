@@ -1,0 +1,92 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+  <body>
+      <meta  charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width , initial-scale = 1"/>
+       <link href="css/mobile.css" rel="stylesheet" >
+       <link href="css/CSS.css" rel="stylesheet"  media= "screen and (min-device-width:720px)">
+     
+    <title> This is the home page </title>
+    
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    
+</head>
+<body >
+
+  <div id = "container">
+      <header>
+    <div id = "logo">
+      <img src="images/logo.png" alt="logo" onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+      </div>
+      <nav>
+        <ul>
+          <li ><a href="index.html">Home </a></li>
+          <li ><a href="about-us.html">About us </a></li>
+          <li ><a href="computing-courses.html">Computing Courses </a></li>
+          <li><a href="design-courses.html">Design Courses </a></li>
+          <li><a href="facilities.html">Facilities</a></li>
+          <li><a href="learning-resources.html">Learning Resources</a></li>
+          <li><a href="information-for-student.html">Information For Student</a></li>
+          <li><a href="information-for-staff.html">information for staff</a></li>
+          <li><a href="business.html">Working With Business</a></li>
+          <li><a href="how-to-find-us.html">How To Find Us </a> </li>
+          <li><a href="contact-us-now.html"> Contact Us </a></li> 
+         </ul>
+    </nav>
+    </header>
+    </div>
+    <h1> Home Page </h1>
+    
+     <img name="slide" width="600" height="600" id="imageschanging"  >
+     
+    <section class = "myFlex" >
+    <div>
+ 
+<img src="images/map.jpg" width = "400" height="400" ></div>
+<div>
+ <img src="images/building2.jpeg" alt="building"  width = 400px height="400"></div></section>
+ <section class="myFlex">
+ <div><img src = "images/cantor-main-door.jpeg" alt="cantor colleg main door " width = 400px height="400"></div>
+ 
+ <div><img src = "images/Cantor4.jpg"width = 400px height="400" ></div></section>
+ <section class="myFlex">
+ <div><img src="images/CantorLectureTheatre11.jpg" width = 400px height="400"></div>
+ <div><img src = "images/discussion2.jpeg" width = 400px height="400"> </div></section>
+  
+  
+<span id = "footer">
+  <p>
+    this page was designed by Noor Homad 
+  </p>
+</span>
+
+<script src="javascript/j.js">
+  </script>
+  <script>
+  var i = 0 ; 
+  var photos=["images/Cantor4.jpg" ,
+  "images/cantoratrium3.jpg" ,
+   "images/gellary.jpeg" ,
+   "images/inside.png" ,
+  "images/discussion.jpeg" ,
+  "images/cantorstreet.jpg" ,
+  "images/beehiveworks.jpeg" ] ;
+var time = 2000;
+
+    function slides(){ 
+       document.slide.src = photos[i];
+      if ( i< photos.length  - 1 )
+      {
+         i++ ; 
+      }
+      else {
+          i =  0 ;  
+      }
+  setTimeout ("slides()" , time )
+    }
+  window.onload= slides;
+  
+</script> 
+</body>
+</html>
