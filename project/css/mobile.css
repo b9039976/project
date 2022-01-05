@@ -4,7 +4,7 @@
    font-style: italic;
    text-decoration-line: underline;
    text-align-last:center ;
-   color:rgb(7, 58, 7) ;
+   color: black ;
    text-shadow: 0 0 10px rgb(166, 165, 231), 0 0 20px rgb(78, 81, 231), 0 0 30px #3734eb, 0 0 40px #a2a6c7,
     0 0 50px #e73508d7, 0 0 60px #2427cf, 0 0 70px#1f035f; 
     }
@@ -26,7 +26,7 @@
  } 
  #container {
   width: 100%;
-    background-color:rgb(245, 218, 63);  
+    background-color:rgb(243, 232, 171);  
   }
   #logo{
     width: 100%;
